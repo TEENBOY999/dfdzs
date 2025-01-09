@@ -1,0 +1,119 @@
+
+
+.ota {
+    display: flex;
+    gap: 10px;
+
+}
+.box2 {
+    background-color: red;
+    width: 100px ;
+    height: 100px;
+}
+
+
+.box3:hover {
+    width: 100px;
+    background-color: blueviolet;
+    height: 400px;
+    transition: 4s;
+    margin-left: 50px;
+    transition: 2s;
+    
+    z-index: -1;
+}
+
+.box {
+background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    z-index: 22;
+    transition: 4s;
+   position: absolute;
+   top: 350px;
+}
+.box4 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    z-index: 22;
+    transition: 4s;
+   position: absolute;
+   top: 350px;
+   margin-left: 110px;
+}
+
+.box3 {
+    width: 100px;
+    background-color: aqua;
+    height: 200px;
+    margin-left: 50px;
+    transition: 4s;
+      
+    
+          
+            animation-name: a;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        
+        
+  
+    
+        
+}
+    
+        
+    @keyframes a {
+    
+    
+        0% {
+            background-color: aqua; 
+        height: 200px;
+        }
+        50% {
+            
+           height: 400px;
+        }
+    
+     
+    
+        100% {
+         height: 200px;
+          
+        }
+    
+    }
+    
+
+
+    .box4 {
+        animation-name: b;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes b {
+    
+    
+        0% {
+ 
+        }
+        50% {
+            margin-left: 200px;
+         
+        }
+    
+     
+    
+        100% {
+       
+          
+        }
+    
+    }
+    .box4 {
+       
+    
+    }
